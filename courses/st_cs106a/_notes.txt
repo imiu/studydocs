@@ -272,6 +272,9 @@ And we can have a share data
 **************************
 *** Lecture Twenty Six ***
 **************************
+** Standard Java **
+public static void main(String[] args) {}
+just to maximize the portability
 
 
 ****************************
