@@ -1,0 +1,130 @@
+###############################################
+##           The Clean Code Talks            ##
+###############################################
+
+*********************************
+*** OO Design for Testability ***
+*********************************
+** 4 biggest Untestables **
+    Location of the "new" operators
+    Work in constructors
+    Global State
+    Law of Demeter violation
+
+* Do as little work in constructor as possible *
+    Best: Assign the dependencies to the fields, nothing more
+    The dependency you inject must be really needed by the class
+
+* Do not return Nulls, return objects *
+    In test: lots of nulls, lots of new ops
+    In prod: no nulls, no new ops
+
+* Global State *
+    Multiple execution can produce different results
+    Unbounded location of state
+    API Lies what it needs
+
+* Long-live objects having a shorter one *
+    Provide a factory for them
+
+
+******************
+*** Unit Tests ***
+******************
+* How to write an untestable code *
+    !! Mixing new ops with logic !!
+    Looking for things
+    Perform work in constructor
+    Having a global state (singletons)
+    Static methods
+    Deep inheritance
+    Too many conditionals
+
+* How to write a testable *
+    Good OO
+    Dependency injection
+    TDD
+    A whole lot about untestable code
+
+Whole system tests -> Functionality tests -> Unit tests
+
+Scenario / Large Tests
+    Whole application
+    Slow / Flacky / Mostly happy parts
+Functional / Medium Tests
+    External dependencies simulated
+    Test class interaction
+Unit / Small Tests
+    Focus on application logic
+    Very Fast / No I/O / No need a debugger
+
+
+*****************************
+*** Don't Look For Things ***
+*****************************
+* To test a method we need to instantiate an object *
+
+* Law of Demeter:*
+    Asking for something you don't need directly only to get what you really want.
+
+* Constructor Injection *
+    Inject objects, that are equal or greater than the "injectee"
+
+* Method Injection *
+    Inject the objects, that lifetime is shorter, than the "injectee"
+
+
+***********************************
+*** Global State and Singletons ***
+***********************************
+* All the test flackiness come from global state *
+
+* DI enforces the order of initialization process *
+
+
+*******************************************
+*** Inheritance, Polymorphism & Testing ***
+*******************************************
+Why to code without "ifs":
+    Function are easier to read
+    - || -       easier to test
+    - || -       easier to maintain
+
+How to get out of "ifs":
+    Use polymorphism:
+        on different behavior of object, based on it's state
+        check same conditions in different places
+
+Where we still use "ifs":
+    Comparison of primitive types 
+
+To be if-free:
+    Don't return nulls, return Null Object
+    Don't return error codes or messages, throw Exceptions
+
+
+** State Based Behavior **
+Polymorphic solution is often better because:
+    !!** new behavior can be added without modification **!!
+    !!** operations are separated and easy to test out  **!!
+
+Prefer polymorphism over conditionals:
+    switch - almost always
+    if - sometime
+
+
+** Repeated conditions **
+If you check some flag once - it's ok. But if you check it in several places - replace it with two subclasses.
+But we don't get out the ifs. Cause anyway we have to check this condition somewhere. So...
+We got two piles:
+    Piles of Objects
+        business logic      # responsible for business logic, domain abstractions
+        the fun stuff       # 
+    Piles of construction
+        factories           # responsible for building object graphs
+        builders            # (wiring the objects together)
+
+Benefits:
+    Conditional localized
+    No more duplication
+    Separation of responsibilities

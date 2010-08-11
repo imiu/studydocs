@@ -1,0 +1,9 @@
+****************************************************
+*** Compiling and Optimizing Scripting Languages ***
+****************************************************
+PHP sucks, but it's ok.
+
+In php "zval" is a C structure, that represents every value
+
+It's possible to cache functions, cause they don't change on run-time
+

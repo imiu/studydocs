@@ -1,0 +1,60 @@
+*****************************************
+***       JavaScript Good Parts       ***
+***           GTT screencast          ***
+*****************************************
+
+** The bad things **
++ adds and concatenates
+When compiler gets an error he steps back, looking for a linefeed and inserts a semicolon there and tries again.
+typeof is a nightmare, because 'typeof array -> object', 'typeof null -> object'
+phony arrays are actually hash tables, which is a drama about performance
+
+** Let's do some compare **
+''          == '0'          // false
+0           == ''           // true
+0           == '0'          // true
+false       == 'false'      // false
+false       == '0'          // true
+false       == undefined    // false
+false       == null         // false
+null        == undefined    // true
+" \t\r\n"   == 0            // true
+
+** If there's no property, we got 'undefined' **
+value == myObject[name];
+if (value === undefined) {
+    alert(name + ' not found.');
+}
+
+** Don't sum my money **
+0.1 + 0.2 !== 0.3
+
+** Closure **
+* Bad way (names array reinitialize every time we call that function) *
+digit_name = function(n) {
+    var names = ['zero', 'one', 'two'];
+    
+    return names[n];
+}
+digit_name(2); // two
+
+* Good way *
+digit_name = function() {
+    var names = ['zero', 'one', 'two'];
+    
+    return function(n) {
+        return names[n];
+    };
+}();
+digit_name(2); // two
+
+** About curly braces **
+return
+{
+    ok: false;
+}
+// Silent error, just produce nothing, so
+return {
+    ok: true;
+}
+// is the only right way

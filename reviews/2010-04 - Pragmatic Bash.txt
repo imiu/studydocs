@@ -1,0 +1,69 @@
+******************************************
+***          Pragmatic Bash            ***
+***    Based on PeepCode screencast    ***
+******************************************
+
+******************
+** Organization **
+******************
+dotfiles
+    bashrc
+    bash
+        env     - export stuff
+        config  - prompt and shell specific options
+        alias   - shortcuts & functions
+
+
+****************
+** Navigation **
+****************
+Ctrl + f        - forward
+Ctrl + b        - backward
+Ctrl + h        - delete
+Ctrl + a        - beginning of line
+Ctrl + e        - end of line
+Esc + b         - back one word
+Esc + f         - forward one word
+Ctrl + l        - clear
+
+
+Ctrl + ] + <letter>             - go to next occurrence of "f"
+Ctrl + Meta + ] + <letter>      - go to prev occurrence of "f"
+
+*************
+** Editing **
+*************
+Ctrl + k                        - delete everything to the right
+Ctrl + u                        - delete everything to the left
+Ctrl + w                        - delete previous word
+Meta + d                        - delete next word
+Ctrl + T                        - transpose current character with previous one
+Meta + T                        - transpose current word with previous one
+Ctrl + Y                        - yank text
+Meta + Y                        - cycle through kill ring
+Ctrl + X Ctrl + E               - edit command in editor
+Meta + .                        - last argument from previous command
+Meta + u                        - uppercase current word
+Meta + l                        - lowercase current word
+Ctrl + _                        - undo
+
+************
+** Repeat **
+************
+!!              - exec previous command (sudo !!)
+!$              - last argument of previous command (mkdir ololo; cd !$)
+!:-             - last command without last  argument
+history         - view history of commands
+!echo           - repeat by name (!cd; !ssh)
+!<number>       - run <number> line from history (history | grep '8888')
+Ctrl + r        - interactive search in history
+Ctrl + j        - while in reverse search - edit current line
+^from^to        - replace "from" for "to" in last command and rerun
+
+
+***********
+** Hacks **
+***********
+mv r.{txt,doc}  - will expand arguments and become "mv r.txt r.doc"
+pbcopy          - copy something to clipboard (cat file | pbcopy)
+pbpaste         - paste from clipboard

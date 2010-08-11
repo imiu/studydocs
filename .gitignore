@@ -1,0 +1,10 @@
+.DS_Store
+*.pyc
+*.pdf
+exams/
+eclipse/
+materials/
+nbproject/
+build/
+.metadata/
+

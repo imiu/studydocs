@@ -1,0 +1,68 @@
+*****************************************
+***       Python Design Patterns      ***
+***            Based on GTT           ***
+*****************************************
+http://www.youtube.com/watch?v=1Sbzmz1Nxvo
+http://www.youtube.com/watch?v=tJXhtncDBu4
+
+** Structural Patterns **
+Adapter: tweak an interface (both class and object variants exist)
+Facade: simplify a subsystem's interface
+Bridge: let many implementations of an abstraction use many implementations of a functionality (without repetitive coding)
+Decorator: reuse + tweak without inheritance
+Proxy: decouple from access/location
+
+* Adapter *
+a) Client code ¥ requires a protocol C
+b) Supplier code µ provides different protocol S (which a superset of C's functionality)
+Adapter code ß "sneaks in the middle":
+    to ¥, ß is as supplier (produces protocol C)
+    to µ, ß is a client (consumes protocol S)
+    "inside", ß implements C (by means of appropriate calls to S on µ)
+     |-------
+     |
+ ----
+µ ->    ß      ->¥
+ ----
+     |
+     |-------
+Commonly 1:1
+
+* Facade *
+a) Supplier code µ provides rich, complex functionality in protocol S
+b) We need simple subset C of S
+Facade code ƒ implements and supplies C (by means of appropriate calls to S on µ)
+
+Adapter's about supplying a given protocol required by client-code
+    or gain polymorphism via homogeneity
+Facade is about simplifying a rich interface when just a subset is often needed
+Facade most often "fronts" for many objects, Adapter for just one
+Commonly m:n
+
+* Bridge *
+a) We have N1 realizations ∂ of abstraction A
+b) Each using any one of N2 implementations Ω of functionality F
+c) Without coding N1*N2 classes
+d) Have abstract superclass A of all ∂ hold a reference R to the interface F of all Ω
+e) Ensure each ∂ uses any functionality of F (thus from a Ω) only by delegating to R
+
+* Decorator *
+a) Client code ¥ requires a protocol C
+b) Supplier code µ does provide protocol C
+c) But we want to insert some semantic tweak 
+    often dynamically plug-in/plug-out-able
+Decorator code ∂ "sneaks in the middle"
+    ¥ uses ∂ just as it would use µ
+    ∂ wraps µ, and it may intercept, modify, add (a little), delegate, ...
+    
+* Proxy *
+a) Client code ¥ needs to access an object T
+b) However, something interferes w/that
+    T lives remotely, or in persisted form
+    access restrictions may apply (security)
+    lifetime or performance issues
+Proxy object π "sneaks in the middle"
+    π wraps T, may create/delegate it at need
+    may intercept, call, delegate, ...
+    ¥ uses π as it would use T
+

@@ -1,0 +1,152 @@
+*****************************************
+***          Pragmatic MarkDown       ***
+***            Based on Docs          ***
+*****************************************
+
+****************
+*** MarkDown ***
+****************
+
+*** Headings ***
+
+This is an H1
+=============
+
+This is an H2
+-------------
+
+# This is an H1         # And this is an H1 too #
+## This is an H2        ## Same for H2 ##
+...
+###### This is an H6
+
+
+*** Block quotes ***
+> This is a blockquote
+> > This is a nested blockquote
+
+Each line can be signed or just a paragraph
+
+
+*** Lists ***
+* Red       + Red       - Red       ## Same
+* Yellow    + Yellow    - Yellow    ## Stuff
+* Green     + Green     - Green     ## Here
+
+1. Red      2. Red                  ## Numbered
+2. Yellow   9. Yellow               ## Lists
+3. Green    8. Green                ##
+
+* Red                               ## <ul>  ## Now with paragraphs
+                                    ## <li><p>Red</p></li><li><p>White</p></li>
+* White                             ## </ul>
+
+1984\. My year of birth             ## Escape digit with a slash
+
+
+*** Code blocks ***
+This is a paragraph
+    And this is a code block        ## <pre><code>And this is a code block</code></pre>
+
+
+3 or more *, -, _                   ## converts into an <hr />
+
+
+*** Links ***
+<http://ya.ru>                      ## <a href="http://ya.ru">http://ya.ru</a>
+<address@example.com>               ## Produces obscured mail link
+
+Inline [exa](http://ex/ "Ti") link. ## <p>Inline <a href="http://ex/" title="Ti">exa</a> link.</p>
+
+[Exa](http://ex/) no title att      ## <p><a href="http://ex/">Exa</a> no title attribute.</p>
+
+Local [About](/about/) link         ## <p><a href="/about/">About</a> link</p>
+
+[an example][id] reference link.    ## Named links
+[Google][]                          ## Use a defined links
+[Google]: http://google.com         ## This will be here ^
+
+I get 10 times more traffic from [Google] [1] than from
+[Yahoo] [2] or [MSN] [3].
+  [1]: http://google.com/        "Google"
+  [2]: http://search.yahoo.com/  "Yahoo Search"
+  [3]: http://search.msn.com/    "MSN Search"
+
+I get 10 times more traffic from [Google][] than from
+[Yahoo][] or [MSN][].
+  [google]: http://google.com/        "Google"
+  [yahoo]:  http://search.yahoo.com/  "Yahoo Search"
+  [msn]:    http://search.msn.com/    "MSN Search"
+
+
+*** Emphasis ***
+*single*                            ## <em>single</em>
+_single_                            ## <em>single</em>
+**double**                          ## <strong>double</strong>
+__double__                          ## <strong>double</strong>
+un*fuck*able                        ## un<em>fuck</em>able
+\*asterisks\*                       ## Escape
+
+
+*** Inline code ***
+Use `inline` code                   ## <p>Use <code>inline</code> code</p>
+``Code with ` symbol``              ## <p><code>Code with ` symbol</code></p>
+Use `<strong>` tag                  ## <p>Use <code>&lt;strong&gt;</code> tag</p>
+
+
+*** Images ***
+![Alt](/path/img.jpg "Opt")         ## Same as href links
+
+![Alt text][id]                     ## And with
+[id]: path/to/image "Opt"           ## reference
+
+
+
+*********************
+*** MultiMarkDown ***
+*********************
+
+*** MetaInformation ***
+Title:  A New MultiMarkdown Doc     ## The key is the text before the colon
+Author: Fletcher T. Penney          ## There must not be any whitespace above the metadata
+        John Doe                    ## I recommend including two spaces at the end of each line
+Date:   July 25, 2005               ##
+
+
+*** Additional link attributes ***
+his is a formatted ![image][] and a [link][] with attributes.
+
+[image]: http://path.to/image "Image title" width=40px height=400px
+[link]:  http://path.to/link.html "Some Link" class=external
+         style="border: solid black 1px;"
+
+
+*** Tables ***
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*        ||
+Content       |   **Cell**    |         Cell |
+
+New section   |     More      |         Data |
+And more      |            And more          |
+
+
+*** Bibliography ***
+This is a statement that should be attributed to
+its source[p. 23][#Doe:2006].
+
+And following is the description of the reference to be
+used in the bibliography.
+
+[#Doe:2006]: John Doe. *Some Big Fancy Book*.  Vanity Press, 2006.
+
+
+*** Definitions ***
+Apple
+:   Pomaceous fruit of plants of the genus Malus in
+    the family Rosaceae.
+:   An american computer company.
+
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.

@@ -1,0 +1,100 @@
+*******************
+***  Chapter 1  ***
+*******************
+
+Encapsulation is breaking your application up into logical parts.
+Delegation is giving another object the responsibility of handling a particular task.
+
+
+*******************
+***  Chapter 5  ***
+*******************
+Coding to interface, rather than to an implementation, makes your software easier to extend.
+Pride kills good design.
+Dealing with set of properties that vary across your object, use a collection.
+A cohesive class does one thing really well and does not try to do or be something else.
+
+
+*******************
+***  Chapter 7  ***
+*******************
+Good design always reduce risk.
+
+
+*******************
+***  Chapter 8  ***
+*******************
+** Delegation & Composition **
+Delegation is when you hand over the responsibility for a particular task to another class or method.
+Composition allows you to use behavior from a family of other classes, and to change that behavior at runtime.
+Aggregation is when one class is used as part of another class, but still exists outside of that other class.
+Aggregation is used when the object (that we use) exist outside the class (where we use it).
+
+** Design Principles **
+* The Open-Closed Principle (OCP) *
+Classes should be open for extension, but closed for modification.
+* The Don't Repeat Yourself Principle (DRY) *
+Avoid duplicate code by abstracting out things that are common and placing those things in a single location.
+* The Single Responsibility Principle (SRP) *
+Every object in your system should have a single responsibility, and all the object's services should be focused on carrying out that single responsibility.
+* The Liskov Substitution Principle (LSP) *
+Subtypes must be substitutable for their base types.
+
+
+*******************
+***  Chapter 9  ***
+*******************
+** BuzzWords **
+Use case driven development
+Feature driven development
+Test driven development
+
+Programming by contract
+Defensive programming
+
+
+*******************
+***   ToolBox   ***
+*******************
+** Requirements **
+Good requirements ensure your system works like your customer expect.
+Make sure your requirements cover all the steps in the use cases for your system.
+Use your use cases to find out about things your customers forgot to tell you.
+Your use cases will reveal any incomplete or missing requirements that you might have to add to your system.
+Your requirements will always change and grow over time.
+
+** OO Principles **
+Encapsulate that varies.
+Code to an interface rather than to an implementation.
+Each class in your application should have only one reason to change.
+Classes are about behavior and functionality.
+Classes should be open for extension, but closed for modification (the OCP).
+Avoid duplicate code by abstracting out things that are common and placing them in a single location (the DRY).
+Every object in your system should have a single responsibility, and all the object's services should be focused on carrying out that single responsibility (the SRP).
+Subtypes must be substitutable for their base types (the LSP).
+
+** Analysis and Design **
+Well-designed software is easy to change and extend.
+Use basic OO principles like encapsulation and inheritance to make your software more flexible.
+If a design isn't flexible then change it! Never settle on bad design, even if it's yours bad design that has to change.
+Make sure each of your classes is cohesive: each of your classes should focus on doing one thing really well.
+Always strive for higher cohesion as you move through your software's design life cycle.
+
+** Solving Big Problems **
+Listen to the customer, and figure out what they want you to build.
+Put together a feature list, in language the customer understands.
+Make sure your features are what the customer actually wants.
+Create blueprints of the system using use case diagrams and use cases.
+Break big system up into logs of smaller sections.
+Apply design patterns to the smaller sections of the system.
+Use basic OOA&D principles to design and code each smaller section.
+
+** Programming Practices **
+Programming by contract sets up an agreement about how your software behaves that you and users of your software agree to abide by.
+Defensive programming doesn't trust other software, and does extensive error and data checking to ensure the other software doesn't give you bad or unsafe information.
+
+** Development Approaches **
+Use case driven development takes a single use case in your system, and focuses on completing the code to implement that entire use case, including all of its scenarios, before moving on to anything else in the application.
+Feature driven development focuses on a single feature, and codes the behavior of that feature, before moving to anything else in the application.
+Test driven development writes test scenarios for a piece of functionality before writing the code for that functionality. Then you write software to pass all the tests.
+Good software development usually incorporates all of these development models at different stages of the development cycle.
