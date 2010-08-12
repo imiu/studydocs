@@ -1,0 +1,11 @@
+*******************
+*** Lecture One ***
+*******************
+Further study:
+    CS 193d - is a C++ course
+    http://www.stanford.edu/class/cs193d/handouts/
+
+    CS 106L - is a lab course with deep C++ stuff like STL etc.
+    http://www.stanford.edu/class/cs106l/
+* Introducing C++ *
+C++ is a crack mom.
