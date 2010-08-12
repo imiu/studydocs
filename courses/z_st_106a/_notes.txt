@@ -280,7 +280,15 @@ just to maximize the portability
 ****************************
 *** Lecture Twenty Seven ***
 ****************************
+Possible further courses:
+    CS 103 Discrete Math
+    CS 103 Discrete Math
 
+    CS 107 Low level programming
+    CS 108 OO Systems
+
+    CS 140 Operational Systems
+    CS 161 Data Structures
 
 ****************************
 *** Lecture Twenty Eight ***
