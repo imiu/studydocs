@@ -9,3 +9,30 @@ Further study:
     http://www.stanford.edu/class/cs106l/
 * Introducing C++ *
 C++ is a crack mom.
+
+
+*******************
+*** Lecture Two ***
+*******************
+* C++ vs Java *
+General syntax
+    basically the same
+Primitive variable types
+    all but boolean, which is bool
+* C++ user-defined types *
+    Enumerations
+        enum dir {North, South, East, West}
+    Records
+        struct pnt {
+            int x;
+            int y;
+        }
+* C++ parameter passing *
+    Default is pass-by-value
+    Add "&" to declaration for pass-by-reference
+
+
+*********************
+*** Lecture Three ***
+*********************
+

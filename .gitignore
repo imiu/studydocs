@@ -7,4 +7,9 @@ materials/
 nbproject/
 build/
 .metadata/
-
+Info.plist
+.gdbinit
+lecture_src/*/Debug/
+*.xcodeproj/
+*.app/
+cs106/

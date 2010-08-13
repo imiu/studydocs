@@ -408,6 +408,7 @@ Ctrl+a              # Pretty indent of php variables and arrays (in Visual Mode)
 :set spelllang=en   # Set checking language to english
 :set spellsuggest=5 # Show me 5 suggestions for spelling
 z=                  # Gives you a list of variants
+1z=                 # Replace the word with first occurrence in dictionary list
 zg                  # Mark word as good and add it to the dictionary
 zG                  # Mark word as good and add it to the internal (clear on exit Vim) dictionary
 zug, zuG            # Undo
