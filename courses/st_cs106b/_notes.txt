@@ -35,4 +35,63 @@ Primitive variable types
 *********************
 *** Lecture Three ***
 *********************
+** C++ libraries **
+* random.h *
+    void Randomize()                            //initialization
+    int RandomInteger(int low, int high)        // for integer numbers
+    double RandomReal(double low, double high)  // for real numbers
+    bool RandomChance(double probability)       // for boolean (prob is for true)
 
+* C++ string *
+Strings are objects
+Strings are mutable!
+
+* Operations on strings *
+Assign using =, makes new copy!
++, += is overloaded for concatenation of chars of strings
+Comparison is working in the right way
+
+* String member functions *
+str.function(args)                              // member function invocation
+Sample function for string:
+    int length()
+    int find(char ch, int pos = 0)
+    int find(string pattern, int pos = 0)
+    string substr(int pos, int len)
+    void insert(int pos, string txt)
+    void replace(int pos, int len, string txt)
+    void erase(int pos, int len)
+
+If we call one of these methods with wrong stuff, it will just crash.
+!! Chars are in 'a' !!
+!! Strings are in "str" !!
+
+* strutils.h *
+    string ConvertToLowerCase(string s)
+    string ConvertToUpperCase(string s)
+    int StringToInteger(string s)
+    string IntegerToString(int num)
+    double StringToReal(string s)
+    string RealToString(double num)
+
+* C++ strings vs C-string *
+string literals are actually old-style C strings
+    from c++ to c
+        s.c_str()
+    from c to c++
+        string("abc")
+!! It bytes us when dealing with files. If we got a filename in a string, we need to convert it to C string
+!! Concatenation don't work with pure two C strings, i.e.
+"str1" + "str2" // won't even compile
+"str1" + 'a'    // compiles, but doesn't work
+"str1" + ch     // same stuff
+
+** C++ console I/O **
+    Stream objects cout and cin
+    Stream insertion <<< and >>>
+    Easier to use simpio.h for reading console
+
+
+********************
+*** Lecture Four ***
+********************
