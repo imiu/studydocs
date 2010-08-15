@@ -1,0 +1,111 @@
+*******************
+***  Chapter 3  ***
+*******************
+Variables
+    lowercase word
+    letters, digits, underscores
+    x, y, banana2, phone_a_quail
+Numbers
+    12_000_000 is allowed. So _ is just to make it more readable
+    3.14, 12.03e-04 are floats
+Strings
+    single or double quotes is allowed
+Symbols
+    just like variables, but starts with ":"
+    :a, :b, :ponce_de_leon
+Constants
+    same as variables, but capitalized
+    Time, Array, Bunny_Lake_is_Missing
+
+Instance Methods
+    dot notation, could be chained and postfixed with "?" or "1"
+    door.open.close, door.is_open?
+Class Methods
+    semicolon notation
+    Door::new( :oak )
+
+Global variables
+    prefixed with "$" sign, they are global. Nuff said.
+    $x, $l, $chanky_bacon
+Instance variables
+    prefixed with "@" sign. @ = 'attribute', just for instance
+    @x, @y
+Class variables
+    prefixed with "@@" sign. @@ = 'attribute all', for whole class and every instance
+
+Blocks
+    any code, surrounded by curly braces is a block
+    2.times { print "chunky bacon" }
+Block arguments
+    |x|, |x, y| can be passed into blocks
+    { |x, y| x + y }
+
+Ranges
+    (1..3) is a range from 1 through 3, with last digit included
+    ('a'..'z') is a range from lowercase alphabet
+    (1...3) if we use 3 dots '...', than the last boundary is excluded
+
+Arrays
+    [1, 2, 3] is an array of numbers
+    ['coat', 'mittens', 'snowboard'] is an array of strings
+    arrays has specific order
+
+Hashes
+    {'a' => 'aardvark', 'b' => 'badger'}
+    just like a dictionary
+    hashes don't have specific order
+
+Regular Expressions
+    /ruby/, /[0-9]+/
+
+Operators
+    lots of them
+    ** ! ~ * / % + - &
+    << >> | ^ > >= < <= <=>
+    || != =- !~ && += ~= == ===
+    .. ... not and or
+
+Keywords
+    keywords can't be used as variable
+    alias   and     BEGIN   begin   break   case    class   def     defined
+    do      else    elseif  END     end     ensure  false   for     if
+    in      module  next    nil     not     or      redo    rescue  retry
+    return  self    super   then    true    undef   unless  until   when
+    while   yield
+
+
+*******************
+***  Chapter 4  ***
+*******************
+nil
+    something without a value, emptiness, but not undefined
+false
+    in conditional statements is equals to nil
+
+print "it's full of stuff" if cup_is_full
+print "it's empty" unless cup_is_full
+
+<<
+    concatenation operator
+    a = "my name is"
+    a << "...Alex"
+
+gets
+    kernel method to read user input
+
+gsub
+    global substitution
+
+! (exclamation mark)
+    is all about in-place changing your data (destructive method)
+
+next
+    in iterator will skip the element
+break
+    in iterator will stop the looping process
+
+
+*******************
+***  Chapter 5  ***
+*******************
+
