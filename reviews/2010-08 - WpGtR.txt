@@ -108,4 +108,30 @@ break
 *******************
 ***  Chapter 5  ***
 *******************
+* Switch operator is not a switch actually *
+case variable
+when 'value'
+    do.something
+when 'other'
+    do.other
+else
+    do.last_one
+end
 
+* Scopes *
+Block scope
+    quite tricky
+    if we got a variable before the block and assign it in, the variable is changed
+    but, if we don't have such variable outside the block, it doesn't assigned
+
+include
+    in class allows to mix another class in...dramatical stuff
+
+
+*******************
+***  Chapter 6  ***
+*******************
+yield
+    used in iterators to push things into the outer world
+clone
+    clones the object and it's metaclass, while dub doesn't
