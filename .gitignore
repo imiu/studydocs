@@ -12,4 +12,5 @@ Info.plist
 lecture_src/*/Debug/
 *.xcodeproj/
 *.app/
-cs106/
+st_cs106l/
+st_cs106x/
