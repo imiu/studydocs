@@ -1,0 +1,30 @@
+*******************************************************************************
+***                         PHP Optimization Stuff                          ***
+***      Based on Digg talk of Rasmus Lerdorf (http://vimeo.com/13768954)   ***
+*******************************************************************************
+** Tools **
+Siege tool can be used to measure the requests from server
+STrace can be used to find out what your process is doing
+PECL/Include to generate your include tree
+Valgrind for profiling the whole prcess, XDebug for profiling only php code
+XHProf by facebook is another profiler, that can output directly to the page (http://github.com/facebook/xhprof)
+
+** Tricks **
+1) Enable APC
+3-7 times faster
+And if you are disciplined enough to deploy only with a reload, then you can switch off the "stack" in APC, so it doesn't check did the file changed or not on every run.
+
+2) Disable .htaccess lookup on every request
+
+3) Disable other index.(html, htm, pl, etc.) files, just index.php in httpd.conf
+
+4) Clear your include path (may be remove '.') and be sure, that it's short and everything is found with one step
+
+5) Clear your require stuff
+
+6) Avoid the conditional includes, if forces APC to reload files
+
+7) Turn off the error_reporting
+
+8) On HipHop always set default timezone right in code
+
