@@ -203,3 +203,4 @@ tig
 ### Conflicts on merge ###
 git checkout --ours filename            # left our version of file
 git checkout --theirs filename          # left someone version of file
+

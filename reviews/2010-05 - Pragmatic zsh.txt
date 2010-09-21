@@ -2,6 +2,13 @@
 ***             Pragmatic zsh         ***
 ***            Based on zsh ug        ***
 *****************************************
+** Navigation and listings ***
+ls -d ^*.txt            # list all files, that don't match *.txt
+ls -R                   # List recursive
+ls run~*.log            # list all with run, but without *.log
+
+
+
 ** Suspend commands **
 Ctrl + z                - suspend command
 bg                      - continue command in suspend mod
@@ -15,3 +22,4 @@ bindkey key command     - bind a command
 ** Vi key bindings **
 Ctrl + P or ESC         - go into command mode (by default we are insert mode)
 i                       - go back in insert mode
+
