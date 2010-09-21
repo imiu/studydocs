@@ -1,0 +1,49 @@
+*******************************************************************************
+***                 MongoDB, High-Performance SQL-Free Database             ***
+***                           Based on conference talk                      ***
+*******************************************************************************
+http://www.leadit.us/hands-on-tech/MongoDB-High-Performance-SQL-Free-Database
+
+The database world is no longer one for all. We have 3 types of DB now:
+    RDBMS (Oracle, MySQL)
+    New generation OLAP (vertica, aster, greenplum)
+    Non-relational operational stores (NoSQL)
+
+NoSQL really means:
+    (scalable) non-relational next generation operational datastores and databasees
+
+Scaling out:
+    no joins (to make the horizontal scale easy)
+        +
+    light transactional semantics
+        = horizontally scalable architectures
+While MySQL is vertical scalable.
+
+Scaling out - CAP
+We must pick 2 out of "Consistency", "Availability" and "Partitions tolerance"
+
+AP
+    Amazon Dynamo inspired (Voldemort, Cassandra)
+CP
+    Google BigTable inspired (MongoDB, Hypertable)
+    
+Data Models
+    Important side effect of no joins is
+        new data models = improved ways to develop applications
+
+3 main data models
+    Key/Value
+        memcached, dynamo, voldemort, 
+    Column-oriented/tabular
+        bigtable, hbase, hypertable
+    Document-based
+        mongodb, couchdb, JSON stores
+** Side note from wiki **
+OLTP (online transaction processing) is better with row-oriented RDBMS, while OLAP (online analytical processing) is better with column-oriented DBMS
+** End of side note **
+
+We trade features for scalability & performance
+
+MongoDB has it's own query language
+
+MongoDB supports fast updates in place
