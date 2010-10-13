@@ -1,0 +1,46 @@
+*******************************************************************************
+***                 10 Tips for a (slightly) less awful resume              ***
+***                             http://goo.gl/y7E9                          ***
+*******************************************************************************
+http://steve-yegge.blogspot.com/2007/09/ten-tips-for-slightly-less-awful-resume.html
+
+* 1. Nobody cares about you *
+    Clean all the unnecessary information from resume
+
+* 2. Use plain text *
+    Don't use special symbols and other strange stuff
+
+* 3. Check, please *
+    Use spellchecker
+    Don't misuse "lead", use "led" when speaking about heading the development
+
+* 4. Avoid Weasel Words
+    Participated, Proposed (if not in conjunction with "... and implemented")
+    Stalker words (analyzed, studied, learned, observed, watched)
+    Use Productivity Words
+        coded, implemented, developed, delivered and launched
+    Designed is ok if followed with "... and implemented"
+
+* 5. Avoid Wank Words *
+    Architected, instead of "designed"
+    Advocate
+    Consultant
+    Methoddologist (Scrum Master)
+
+* 6. Don't be a Certified Loser *
+    Just remove it, unless it's needed by company
+
+* 7. Don't say "expert" unless you really mean it *
+
+* 8. Don't tip your hand *
+    Fast learner - remove
+    Motivated - remove
+    The best way to sound non-desperate is to be non-desperate.
+
+* 9. Don't bore us to death *
+    Reduce unnecessary information
+    Don't repeat from section to section
+    Write what matters
+
+* 10. Don't be a lying scumbag *
+    Just don't
