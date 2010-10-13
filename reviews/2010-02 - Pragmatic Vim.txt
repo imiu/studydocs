@@ -192,6 +192,7 @@ autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 :sp file.txt                # Split horizontally and load file.txt to edit
 :vsp file.txt               # Split vertically and load file.txt to edit
 :up file.txt                # Save visually selected lines to file
+:enew                       # Create new empty buffers
 
 set noexpandtab -> retab!   # Convert spaces to tabs
 set expandtab   -> retab!   # Convert tabs to spaces
