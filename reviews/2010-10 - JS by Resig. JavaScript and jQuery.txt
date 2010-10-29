@@ -1,0 +1,22 @@
+*******************************************************************************
+***                         Javascript and jQuery                           ***
+***               Based on ACM Nortbeastern Univercity talk                 ***
+*******************************************************************************
+http://www.youtube.com/watch?v=GKfHdOrR3lw
+
+[].join.call("test", " ") == "t e s t"
+
+** Currying **
+Function.prototype.curry = function() {
+    var fn = this,
+        args = Array.prototype.slice.call(arguments);
+    return function() {
+        return fn.apply(this, args.concat(Array.prototype.slice.call(arguments)));
+    };
+};
+
+String.prototype.csv = String.prototype.split.curry(/, \s*/);
+var results = ("John, Resig, Boston").csv();
+
+results[1] == "Resig";
+
