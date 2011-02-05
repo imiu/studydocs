@@ -1,0 +1,83 @@
+*******************************************************************************
+***                         Pragmatic OmniFocus                             ***
+***                         Based on everything                             ***
+*******************************************************************************
+OmniGroup Resources http://www.omnigroup.com/products/omnifocus/videos/
+MacSparky           http://www.macsparky.com/blog/tag/omnifocus
+
+
+** New Stuff **
+Cmd + N                     Quick Entry
+Cmd + Shift + N             New Project
+Cmd + Alt + Shift + N       New Folder
+Cmd + Ctrl + Shift + N      New Single-Action List
+
+Cmd + Alt + N               New window
+
+
+** Sync Stuff **
+Cmd + Ctrl + S              Sync with server
+Cmd + Alt + S               Sync with iCal
+
+
+** Editing **
+Cmd + Shift + Alt + V       Paste and match style
+Cmd + D                     Duplicate
+
+Cmd + '                     Edit note
+Cmd + Alt + '               Toggle all notes
+
+Cmd + Shift + R             Mark reviewed
+Cmd + Shift + L             Set Flag
+
+Cmd + K                     Clean up
+
+Cmd + }                     Add Child
+Cmd + {                     Add Sibling
+
+Cmd + Ctrl + Arrows         Move around
+Cmd + ]                     Indent
+Cmd + [                     Outdent
+
+Cmd + Alt + L               Group together under parent
+
+Cmd + /                     Insert current short date (01.02.2011)
+Cmd + |                     Insert current short date and time (01.02.2011 21:40)
+Cmd + @                     Insert current time (21:41:02)
+Cmd + Alt + /               Insert current long date (1 February 2011)
+Cmd + Alt + |               Insert current long date and time (1 February 2011 21:41:21 GMT+03:00)
+
+Cmd + Alt + C               Copy style
+Cmd + Alt + V               Paste style
+Cmd + Ctrl + Delete         Clear style
+
+
+** Viewing **
+Cmd + 1                     Planning mode
+Cmd + 2                     Context mode
+
+Cmd + 4                     Toggle between sidebar and list
+
+Cmd + Alt + 1               Inbox
+
+Cmd + Alt + R               Show item in context/planning mode
+Cmd + Ctrl + F              Toggle focus on task/list
+
+Cmd + Ctrl + 9              Expand all
+Cmd + Ctrl + 0              Collapse al
+Cmd + 9                     Expand row
+Cmd + 0                     Collapse row
+
+Cmd + Alt + P               Hide parent in Context Mode
+Cmd + Shift + V             Toggle View Bar
+
+
+** Misc **
+Cmd + Shift + I             Show Inspectors
+Cmd + Ctrl + P              Show Perspectives
+
+
+** Mail Format **
+-- Task > Project @ Context
+-- Task :: Project @ Context//Note goes here
+-- Task > Project @ Context #Date $1h - estimation time
