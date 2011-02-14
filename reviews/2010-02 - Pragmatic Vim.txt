@@ -199,6 +199,9 @@ set expandtab   -> retab!   # Convert tabs to spaces
 :%s/\s\+$//e                # Strip trailing spaces
 :g/^$/d                     # Delete all empty lines
 :s/\%V_/ /g                 # Modify ONLY visually selected block by \%V
+:s%/regexp/newtext/gc       # Search & replace with confirmation
+
+:verbose set list?          # Shows where the config option was set
 
 
 ********************
@@ -217,6 +220,13 @@ x                   # Exec a default action on this file
 :Glog               # Show log
 :Gmove path         # git mv
 :Gremove            # git rm
+
+** Lusty Explorer **
+
+,lf          # Opens the filesystem explorer.
+,lr          # Opens the filesystem explorer from the directory of the current file.
+,lb          # Opens the buffer explorer.
+,lg          # Opens the buffer grep, for searching through all loaded buffers
 
 
 
