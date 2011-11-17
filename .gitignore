@@ -13,6 +13,7 @@ Info.plist
 lecture_src/*/Debug/
 *.xcodeproj/
 *.app/
+st_cs106b/
 st_cs106l/
 st_cs106x/
 slides/
