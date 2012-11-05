@@ -1,0 +1,12 @@
+claustrophobia - клаустрофобия
+agoraphobia - агарофобия
+yo que tu, yo en tu lugar, si fuera tu - if I were you
+chillar, gritar - кричать
+rabia - ярость, гнев
+percibir - ощущать, познавать
+notar - отмечать, замечать
+intuir - интуитивно чувствовать
+vago - бездельник, смутный, нерешительный
+cuadriculado - разлинованный в клетку
+
+% s/\ \-\ /\t/
