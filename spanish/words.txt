@@ -8,5 +8,11 @@ notar - отмечать, замечать
 intuir - интуитивно чувствовать
 vago - бездельник, смутный, нерешительный
 cuadriculado - разлинованный в клетку
+esta dilubiando - лить как из ведра
+estar (ser) atento - внимательный, вежливый
+esta looviendo a cántaros - льет как из ведра
+cumplir la regla, cumplir las prometas - выполнять обещания
+cortesia - знак внимания, вежливость
+siderurgia - черная металлургия
 
 % s/\ \-\ /\t/
