@@ -14,5 +14,23 @@ esta looviendo a cántaros - льет как из ведра
 cumplir la regla, cumplir las prometas - выполнять обещания
 cortesia - знак внимания, вежливость
 siderurgia - черная металлургия
+vivir aislado del mundo - жить вдали от мира
+verguenza - стыд, застенчивость смущение
+timido - робкий, застенчевый
+rasgo - черта характера
+destacar - выделять, подчеркивать
+provecho - польза, выгода
+de que trata (va) la pele - о чем кино
+ciencia ficion - science fiction
+estar negado - не иметь талантов к чему-либо
+menualidades - работа руками
+agricolaje - работа по дому (руками)
+prestar - давать взаймы
+medio de communicacion - средство коммуникации
+talento - талант
+vicio - недостаток, изъян
+virtud - достоинство, добродетель
+aficiones - хобби
+olas - волны
 
 % s/\ \-\ /\t/
