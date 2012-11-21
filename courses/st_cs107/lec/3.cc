@@ -46,15 +46,13 @@ int main() {
   unsigned short ssb = ntohs(bs);
   bin.reset();
   bin |= ssb;
-  unsigned short bes = (unsigned short)bin.to_ulong();
   cout << "LE as BE Short: " << ssb << endl;
 
   unsigned short ss = htons(s);
   bin.reset();
   bin |= ss;
   cout << "BE Binary: " << bin << endl;
-  unsigned short les = (unsigned short)bin.to_ulong();
-  cout << "BE as LE Short: " << ssb << endl;
+  cout << "Can't tell what's LE on BE machine looks like =(" << ssb << endl;
 
 
   // Structs
