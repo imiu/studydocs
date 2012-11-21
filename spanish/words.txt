@@ -32,5 +32,34 @@ vicio - недостаток, изъян
 virtud - достоинство, добродетель
 aficiones - хобби
 olas - волны
+pancarta - плакат
+suicidarse - суициднуться
+el suicidio - суицид
+el deshaucio - выселение
+monje - монах
+atraver - вовлекать, притягивать
+arrogante - высокомерный
+particular - особый, частный
+fiebre - жар, температура
+estar enfermo - болеть
+me pone enfermo - переживать за что-то
+alma de gato / perro - душа кошки / собаки
+encender - включать
+el aula = el classe - аудитория
+ser afortunado - быть везунчиком
+quejarse - жаловаться
+pesado - тяжелый, невыносимый, назойливый
+rascar - чесать ногтями
+acariciar - гладить
+bostezar - зевать
+curioso - любопытный, интересный, забавный
+coincidir con alguen - соглашаться с кем-то
+estar de acuerdo con alguen - соглашаться с кем-то
+estar en desacuerdo con alguen - не соглашаться с кем-то
+banda sonora - sound track
+el semaforo - светофор
+alucenar - обольщать, очаровывать, галюцинировать
+tacaño - скупой
+esplendido - щедрый
 
 % s/\ \-\ /\t/
