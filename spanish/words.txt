@@ -61,5 +61,51 @@ el semaforo - светофор
 alucenar - обольщать, очаровывать, галюцинировать
 tacaño - скупой
 esplendido - щедрый
+enterarse de - быть осведомленным о чем-то
+ambo/a - пара
+cabezoto - упрямец
+deshacer - разделать, уничтожать
+escoger - отбирать, выбирать
+quedarse - успокаиваться, брать, провести, лишаться
+huir - убегать, избегать
+solidaridad - солидарность, единодушие
+estar(ser) orgulloso - гордый, высокомерный
+imaginativo - с богатым воображением
+adolecente - болеть, страдать, 
+impulsivo - импульсивный
+la conducta - поведение, правление
+atrevido - смелый, дерзкий, вызывающий
+cobarde - трусливый, малодушный, несмелый
+paracaidas - парашют
+bucear - нырять
+Marte - Марс
+sumergir - погружаться
+inmercio - всплывать
+miedoso - боязливый
+sensible - чувствительный, сентиментальный
+valiente - сильный, активный, храбрец
+soberbia - высокомерие, тщеславие
+humilde - скромный, простой
+simpatia - симпатия
+perezoso/vago - ленивый, медлительный, соня
+temperamental - темпераментный
+hipócrita - лицемерный, ханжеский
+miente - мысль, воля, желание
+trarbajador - трудолюбивый
+extroverido - экстравертный
+introvertido - интравертный
+sincero - искренний, откровенный
+violento - вспыльчивый, насильственный, яростный
+sensato - благоразумный, здравомыслящий
+reflexivo - рефлексивный
+distante - отдаленный, далекий
+nostálgico - тоскующий
+arisco - нелюдимый, угрюмый, недоверчивый
+temerarrio - безрассудный, опрометчивый
+indeciso - нерешительный
+tomar decisiones - принимать решения
+reir - смеяться, шутить
+fracasos - разрушение, крах, неудача
+éxito - результат, успех
 
 % s/\ \-\ /\t/
