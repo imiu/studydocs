@@ -107,5 +107,27 @@ tomar decisiones - принимать решения
 reir - смеяться, шутить
 fracasos - разрушение, крах, неудача
 éxito - результат, успех
+tribus - племя, род
+convivencia - сожительство
+tema tabu - запретная тема
+estar en el paro - быть безработным
+compatibilizar - совмещать
+personas con formacion / cualificados - образованные люди
+negocios - бизнес, занятие, прибыль
+perder / emplear tiempo - терять время
+obedecer - подчиняться
+una manzana - квартал
+pista / campo - площадка / поле
+piropo / cumplido - комплимент
+adivinar - угадывать, различать
+estereotipo / prejuicios - стереотипы
+echar - бросать, увольнять, приделывать
+bronca - грубая шутка, ссора, устроить разнос
+amanecer - рассветать
+anochecer - темнеть
+aun - даже, еще
+entretener - занимать, развлекать
+distraido - рассеянный, невнимательный
+inmediatez - близость, срочность
 
 % s/\ \-\ /\t/
