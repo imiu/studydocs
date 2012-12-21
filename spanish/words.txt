@@ -185,9 +185,7 @@ oriente - восток
 ocidente - запад
 incertidumbre - неопределенность
 voluntad - воля, терпение
-"velo de maya" - 
+"velo de maya" - что-то из индуизма
 esclavos - раб, рабский
 sociedad - общество
 
-
-% s/\ \-\ /\t/
