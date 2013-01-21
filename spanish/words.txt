@@ -129,5 +129,63 @@ aun - даже, еще
 entretener - занимать, развлекать
 distraido - рассеянный, невнимательный
 inmediatez - близость, срочность
+tejido - ткань
+grave - тяжелый, серьезный
+encima - кроме того, впридачу
+intrusismo - наличие непрофессионалов
+debida - долг
+quirofanos - операционная
+pesadilla - ночной кошмар
+pasada - ход, средство к существованию
+tos - кашель
+suegro - тесть, теща
+nuera - невестка
+yerno - зять
+consuegros - родители родителям супругов
+terso - гладкий
+flacido - отмель
+firme - твердый, стабильный
+arrugas - морщины, складки
+calmante - успокоительное
+convalecencia - выздоравливание
+paperas - зоб
+peste negra - чума
+erradirar - искоренять
+estornudar - чихать
+derramar - разливать
+derrame - кровоизлияние
+sordo - глухой
+mudo - немой
+ciego - слепой
+broma - шутка, неприятность
+camilla - кушетка, носилки
+fractura - перелом
+esguince - вывих, растяжение
+constipado - насморк
+fiebre - жар, лихорадка
+botiquin - аптечка
+temblor - дрожь, озноб
+terremoto - землетрясение
+hipocondriaco - ипохондрик
+cazador - охотник
+sobrevivir - выживать
+cima - вершина
+enganchado - подсевший
+volatil - переменчивый
+relatividad - относительность
+prensa - пресса
+fanato - рой, улей
+tacata - ходунок
+sobrio - трезвый
+higado - печень
+de repente - внезапно
+"gran verda" - правда
+trascendental - трансцендентный
+oriente - восток
+ocidente - запад
+incertidumbre - неопределенность
+voluntad - воля, терпение
+"velo de maya" - что-то из индуизма
+esclavos - раб, рабский
+sociedad - общество
 
-% s/\ \-\ /\t/
