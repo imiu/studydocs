@@ -1,6 +1,8 @@
 .DS_Store
 *.ss~
 *.pyc
+__pycache__
+.coverage
 *.pdf
 exams/
 eclipse/
