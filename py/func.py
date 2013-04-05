@@ -17,3 +17,6 @@ class Unpacker(object):
         raise AttributeError(
             "'Unpacker' object has no attribute '{}'".format(attr)
         )
+
+if __name__ == '__main__':
+    pass

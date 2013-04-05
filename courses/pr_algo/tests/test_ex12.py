@@ -7,6 +7,9 @@ class TestEx12(object):
     def setup_method(self, method):
         self.ex = Ex12()
 
+    def setup(self):
+        self.ex = Ex12()
+
     def test_is_palindrome(self):
         assert False == self.ex.is_palindrome("aaz")
         assert True == self.ex.is_palindrome("abba")
