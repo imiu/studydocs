@@ -48,13 +48,6 @@ class Percolation(object):
                 print(str(elm).ljust(2), end=" ")
         print("\n")
 
-    def print_opened_arr(self):
-        for lines in self.opened:
-            for elm in lines:
-                print(elm, end=" ")
-            print()
-        print("\n")
-
 
 class PercolateStats(object):
     def __init__(self, n, t):

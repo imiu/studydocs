@@ -12,6 +12,16 @@ class TestPercolation(object):
         p.print_perc_arr()
         assert [9, 9, 9, 3, 4, 5, 10, 10, 10, 9, 10] == p.get_perc_arr()
 
+    def test_open_(self):
+        p = Percolation(3)
+        p.open_(0, 2)
+        assert 1 == p.opened[0][2]
+
+    def test_is_open(self):
+        p = Percolation(3)
+        p.open_(0, 2)
+        assert True == p.is_open(0, 2)
+
     def test_open(self):
         p = Percolation(3)
         p.open_(0, 2)
