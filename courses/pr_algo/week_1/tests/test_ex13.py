@@ -11,7 +11,6 @@ class TestEx13(object):
         self.ex = Ex13()
 
     def test_math_evaluator(self):
-        assert True == (1 / 0)
         assert 2 == self.ex.math_evaluator("(1+1)")
         assert 12 == self.ex.math_evaluator("((((1+1)-1)+5)*2)")
         assert 2 == self.ex.math_evaluator("(((((1+1)-1)+5)*2)/6)")
