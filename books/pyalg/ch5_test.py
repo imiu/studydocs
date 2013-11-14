@@ -1,21 +1,23 @@
 #! /usr/bin/env python
 # -*- coding: utf-8
-from ch5 import dfs
+from ch5 import top_sort, bfs
 import pytest
 
 
 @pytest.fixture
 def graph():
-    return {'a': ['b', 'c', 'f', 'e', 'd'],
-            'b': ['c', 'e'],
-            'c': ['d'],
-            'd': ['e'],
-            'e': ['f'],
-            'f': ['c', 'g', 'h'],
-            'g': ['f', 'h'],
-            'h': ['f', 'g']}
+    return {0: [1, 2, 5],
+            1: [4],
+            2: [],
+            3: [2, 4, 5, 6],
+            4: [],
+            5: [2],
+            6: [0, 4]}
 
 
 class TestCh5(object):
-    def test_dfs(self, graph):
-        assert ['a', 'f', 'h', 'g', 'c', 'd', 'e', 'b'] == dfs(graph, 'a')
+    def test_top_sort(self, graph):
+        assert [3, 6, 0, 5, 2, 1, 4] == top_sort(graph)
+
+    def test_bfs(self, graph):
+        assert [0, 1, 4] == bfs(graph, 0, 4)
