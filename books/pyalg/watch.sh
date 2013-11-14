@@ -1,3 +1,3 @@
 #!/usr/bin/env zsh
-watchmedo shell-command --patterns='*' --command='py.test' ./
+watchmedo shell-command --ignore-patterns='*pycache*' --command='py.test' ./
 
