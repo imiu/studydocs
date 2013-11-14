@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 # -*- coding: utf-8
-from linked_list import LinkedList
+from ch2 import LinkedList
 import pytest
 
 
